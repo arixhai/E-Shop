@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ShopEase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="contents">
+    <header>
+        <div class="container">
+            <h1>ShopEase</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon" onclick="toggleCart()">
+                <img src="cart.jpeg" alt="Cart">
+                <span class="cart-count">2</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="cart-dropdown">
+        <h2>Shopping Cart</h2>
+        <div class="cart-item">
+            <img src="product1.jpg" alt="Product 1">
+            <div class="cart-item-details">
+                <h3>Product 1</h3>
+                <p>Quantity: 1</p>
+                <p>Price: $29.99</p>
+            </div>
+            <button class="remove-btn">Remove</button>
+        </div>
+        <div class="cart-item">
+            <img src="product2.jpg" alt="Product 2">
+            <div class="cart-item-details">
+                <h3>Product 2</h3>
+                <p>Quantity: 1</p>
+                <p>Price: $39.99</p>
+            </div>
+            <button class="remove-btn">Remove</button>
+        </div>
+        <div class="cart-total">
+            <h3>Total: $69.98</h3>
+            <a href="checkout.html" class="btn">Checkout</a>
+        </div>
+    </div>
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions, please feel free to reach out to us. We're here to help!</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <form action="#" method="post">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                            
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <h3>Our Address</h3>
+                        <p>123 ShopEase Blvd, Suite 100<br>London, Greater London, E1</p>
+                        
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@shopease.com">info@shopease.com</a></p>
+                        
+                        <h3>Phone</h3>
+                        <p><a href="tel:+441234567890">+44 123 456 7890</a></p>
+                        
+                        <h3>Follow Us</h3>
+                        <p>
+                            <a href="#">Facebook</a> | 
+                            <a href="#">Twitter</a> | 
+                            <a href="#">Instagram</a>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="map">
+                    <h3>Our Location</h3>
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.83988661267!2d-0.2664031741739742!3d51.528739805062266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sgr!4v1722690710282!5m2!1sen!2sgr" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+</di>v
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ShopEase. All rights reserved.</p>
+        </div>
+    </footer>
+</div>
+<script src="js.js"></script>
+</body>
+</html>
